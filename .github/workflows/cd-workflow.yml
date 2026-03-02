@@ -31,7 +31,7 @@ jobs:
       - name: Configure Databricks
         run: |
           # write out the profile (here called "TEST")
-          cat <<EOF > ~/.databricks.cfg
+          cat <<EOF > ~/.databrickscfg
           [TEST]
           host = https://adb-7405614259537054.14.azuredatabricks.net/
           azure_tenant_id = ${{ secrets.AZURE_TENANT_ID }}
