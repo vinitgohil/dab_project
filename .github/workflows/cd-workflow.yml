@@ -21,7 +21,7 @@ jobs:
           python_version: '3.11'
 
       - name: Install Databricks CLI
-        run: curl -fsFL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+        run: curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
 
       - name: Install Dependencies
         run: |
