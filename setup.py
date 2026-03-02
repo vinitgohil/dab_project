@@ -4,7 +4,7 @@ setup(
     name="dab_project",
     version="0.0.2",
     description="This contains code in ./src directory of the project",
-    author="Vinit Gohil",
+    author="V Gohil",
     packages=find_packages(where="src"),
     package_dir={"":"./src"},
     include_dirs=["./src*"],
