@@ -48,5 +48,7 @@ targets:
         default: false
       schema: qa
     permissions:
-      - user_name: vgohil@mac.com
+      - service_principal_name: 39a427f8-676f-405a-a3e6-4f6959c6bcd5
         level: CAN_MANAGE
+    run_as:
+      service_principal_name: 39a427f8-676f-405a-a3e6-4f6959c6bcd5
